@@ -16,6 +16,11 @@ Tested on Python 3.6
 pip install -r requirements.txt
 ```
 
+Install pytorch-cpu
+```bash
+pip3 install torch==1.3.1+cpu torchvision==0.4.2+cpu -f https://download.pytorch.org/whl/torch_stable.html 
+```
+
 ## Prepare Dataset
 
 - Download dataset for training. This can be any wav files with sample rate 22050Hz. (e.g. LJSpeech was used in paper)
